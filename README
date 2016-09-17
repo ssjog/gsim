@@ -1,0 +1,25 @@
+THE GRAVITATIONAL N-BODY PROBLEM
+
+1. AUTHORS
+
+Tobias Eriksson <tobier@kth.se>
+Sebastian Sjögren <ssjog@kth.se>
+
+2. BUILDING
+There are four (4) programs in seperate directiories, all including Makefiles for easy building.
+To build a specific program, change into the directory and type 'make', and 'make clean' to clean up.
+All programs have an illustrative graphical simulation. To build a program with graphics, type 'make gfx'.
+Please note that the graphical simulations require SDL and OpenGL libraries to be installed on the system.
+
+All programs, with and without graphics, have been successfully built on Ubuntu Linux.
+
+3. RUNNING
+Each program requires different command-line arguments. RUn the program without any
+command-line arguments: the program will print how to properly use it.
+
+4. REPORT
+The report is included as a PDF file, named 'report.pdf'. 
+
+
+
+

@@ -1,0 +1,22 @@
+Vi har fastställt antalet steps till 37500.
+
+
+
+
+		120	180	240
+Program 1	15.1	33.6	59.7	
+
+			1 workers				2 workers			3 workers			4 workers
+		120	180	240			120	180	240		120	180	240			120	180	240
+Program 2	14.7	33.2	59.1			14.7	32.3    59.2		10.6	22.3	37.7			9.8	20.3	36.1	
+
+		120	180	240
+Program 3	25.5	39.4	55.5
+
+			1 workers				2 workers			3 workers			4 workers
+		120	180	240			120	180	240		120	180	240			120	180	240
+Program 4	20.4	33.7	55.3			12.3	22.6	36.1		13.9	22.3	30.6			12.4	19.6	26.4
+
+---
+Sekvensiell brute 2000 kroppar 300 ticks = 33 sek
+Sekvensiell BH 2000 kroppar 300 ticks = 2.5 sek
